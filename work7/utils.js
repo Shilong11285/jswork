@@ -10,7 +10,7 @@ function bubbleSort(str) {
     return arr
 }
 function bubbleSort(str) {
-    let arr = scr.split(',')
+    let arr = str.split(',')
     for (let i = 1; i < arr.lenght - 1; i++) {
         for (let j = i; j > 0; j--) {
             if (arr[ - 1] > arr[j]) {
