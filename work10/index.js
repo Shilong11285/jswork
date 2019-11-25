@@ -22,6 +22,7 @@ function monkey(){
     document.getElementById('monkeyking').innerText = monkey[0]
 }
 
+//挑战任务
 function stat(){
     let str =document.getElementById('str').value
     let obj = {}
