@@ -23,4 +23,21 @@ var lamp = {
         this.green.odj.className = style[2];
     }
   };
-  var
+  var count = {
+      odj: document.getElementById('count'),
+      change: function(num) {
+          this.odj.innerHTML = (num < 10) ? ('0' + num) : num;
+      }
+  };
+  var now = lamp.green;
+  var timeout = now.timeout;
+  lamp.changeStyle(now.style);
+  count.change(timeout);
+  setInterval(function() {
+      if (--timeout <= 0) {
+          now = lamp[now.next];
+          timeout = now.timeout;
+          lamp.changeStyle(now.style);
+      }
+      count.change(timeout);
+  }, 1000);
