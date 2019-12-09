@@ -3,6 +3,7 @@
     padding: 0 10px 10px;
     border: 1px solid #D5E5F5;
 }
+
 .cart-title{
     margin-bottom: 10px;
     font-size: 14px;
@@ -14,6 +15,7 @@
     color: #333;
     font-family: 'Microsoft YaHei';
 }
+
 .cart-table{
     width: 100%;
     margin: 0 auto;
@@ -22,31 +24,38 @@
     font-family: Verdana, "Microsoft YaHei";
     color: #333;
 }
+
 .cart-table th{
     border-bottom: 2px solid #B2D1FF;
     font-weight: normal;
     height: 35px;
     line-height: 23px;
 }
+
 .cart-item{
     background-color: #FAFCFF;
     border-bottom: 1px dotted #82B3FD;
 }
+
 .cart-item td{
     height: 55px;
     text-align: center;
 }
+
 .cart-item .cart-txt-left{
     text-align: left;
 }
+
 .cart-name{
     color: #3366D4;
     font-weight: bold;
 }
+
 .cart-subtotal{
     color: #FF3334;
     font-weight: bold;
 }
+
 .cart-reduce,
 .cart-add{
     display: inline-block;
@@ -61,10 +70,12 @@
     font-family: 'Arial';
     font-size: 13.3333px;
 }
+
 .cart-reduce:hover,
 .cart-add:hover{
     background-color: #FF9900;
 }
+
 .cart-num{
     margin: 5px;
     width: 35px;
@@ -76,30 +87,34 @@
     background: #fff;
     border: 1px solid #bbb;
 }
+
 .cart-del,
-.cart-all,
-.cart-unall{
+.cart-all{
     color: #3366D4;
 }
+
 .cart-del:hover,
-.cart-all:hover,
-.cart-unall:hover{
+.cart-all:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
 .cart-bottom{
     height: 55px;
     text-align: right;
 }
+
 .cart-bottom .cart-all{
     position: relative;
     top: 1px;
 }
+
 .cart-total-price{
     color:#FF3334;
     font-weight: bold;
     font-size: 16px;
 }
+
 .cart-bottom-btn{
     color: #FFF;
     font-size: 14px;
@@ -111,7 +126,7 @@
     border-radius: 5px 5px 5px 5px;
     padding: 6px 12px;
 }
+
 .cart-bottom-btn:hover{
     background: #FF6600;
 }
-
