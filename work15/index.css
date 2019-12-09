@@ -13,7 +13,7 @@
     font-weight: 700;
     text-indent: 15px;
     color: #333;
-    font-family: 'Microsoft Yahei';
+    font-family: 'Microsoft YaHei';
 }
 
 .cart-table{
@@ -21,7 +21,7 @@
     margin: 0 auto;
     border-collapse: collapse;
     font-size: 12px;
-    font-family: Verdana, "Microsoft Yahei";
+    font-family: Verdana, "Microsoft YaHei";
     color: #333;
 }
 
@@ -29,12 +29,12 @@
     border-bottom: 2px solid #B2D1FF;
     font-weight: normal;
     height: 35px;
-    line-height: 23px
+    line-height: 23px;
 }
 
 .cart-item{
     background-color: #FAFCFF;
-    border-bottom:1px dotted  #84B3FD;
+    border-bottom: 1px dotted #82B3FD;
 }
 
 .cart-item td{
@@ -89,14 +89,14 @@
 }
 
 .cart-del,
-.cart-unall,
-.cart-all{
-    color:#3366D4;
+.cart-all,
+.cart-unall{
+    color: #3366D4;
 }
 
 .cart-del:hover,
-.cart-unall,
-.cart-all:hover{
+.cart-all:hover,
+.cart-unall:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -108,11 +108,11 @@
 
 .cart-bottom .cart-all{
     position: relative;
-    top:1px;
+    top: 1px;
 }
 
 .cart-total-price{
-    color: #FF3334;
+    color:#FF3334;
     font-weight: bold;
     font-size: 16px;
 }
@@ -125,7 +125,7 @@
     margin: 0 20px;
     background: #FE8502;
     border: 1px solid #FF6633;
-    border-radius:5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
     padding: 6px 12px;
 }
 
