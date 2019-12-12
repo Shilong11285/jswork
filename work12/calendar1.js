@@ -12,8 +12,8 @@ function calendar(y) {
                 html += '<td colspan="' + w + '"></td>';
             }  
             html  += '<td>' + d + '</td>';
-             if (w == 6 && d != max) {   
-            html +='</tr><tr>';
+            if (w == 6 && d != max) {   
+                html +='</tr><tr>';
             }else if (d == max) {
                 html += '</tr>'    
             }
