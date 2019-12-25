@@ -13,9 +13,9 @@ app.post('/formBuilder', function (req, res) {
 let ajaxData =[]
 let count = 0
 app.post('/ajax', function (req, res) {
-  let sno = rep.body.sno
-  let name = rep.body.name
-  let content = rep.body.content
+  let sno = req.body.sno
+  let name = req.body.name
+  let content = req.body.content
   let comment = {
     id: count + 1,
     sno: sno,
@@ -30,7 +30,7 @@ app.post('/ajax', function (req, res) {
 })
 
 app.get('/ajax', function (req, res) {
-  let page = rep.query.page?Math.max(rep.query.page,1):1
+  let page = req.query.page?Math.max(req.query.page,1):1
   let size = 5
   let maxpage = Math.ceil(ajaxData.length/size)
   result={data:ajaxData.slice((page-1)*size,page*size),
